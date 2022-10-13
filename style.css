@@ -15,7 +15,8 @@
     outline-style: solid;
     outline-width: 15px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .div2{
@@ -45,21 +46,37 @@ p{
 }
 .text2{
     text-transform: capitalize;
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
 }
 .text3{
     text-transform: uppercase;
+    font-family: 'Times New Roman', 'Times', 'serif';
 }
 .text4{
     text-transform: lowercase;
+    font-family: 'Georgia', 'Times New Roman', 'Times';
 }
 .text5{
     line-height: 1.5;
     border: 2px solid red;
     padding: 5px;
+    font-family: 'sofia';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1em;
 }
 .text6{
-    font-size: 30px;
+    font-size: 20px;
     text-shadow: 1px 1px 1px black, 2px 2px 4px blue;
+    font-family: 'Trirong', sans-serif;
+    font-style: oblique;
+}
+.text7{
+    font: italic small-caps bold 30px/15px 'sofia';
+    color: red;
+    text-align: center;
 }
 
-
+.fa{
+    background-color: black;
+}
