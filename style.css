@@ -72,11 +72,7 @@ p{
     font-style: oblique;
 }
 .text7{
-    font: italic small-caps bold 30px/15px 'sofia';
+    font: italic small-caps bold 25px/15px 'sofia';
     color: red;
     text-align: center;
-}
-
-.fa{
-    background-color: black;
 }
