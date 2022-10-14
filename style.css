@@ -1,6 +1,43 @@
+.font{
+    width: 500px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 10px;
+    outline-color: rgb(200, 10, 248);
+    outline-offset: 20px;
+    box-sizing: border-box;
+    outline: 10px ridge red;
+    border: 7px solid green;
+}
+.fa-brands{
+    font-size: 25px;
+}
+.fa-facebook,.fa-facebook-messenger{
+    color: #056BE1;
+}
+
+.fa-twitter{
+    color: #1DA1F2;
+}
+.fa-linkedin{
+    color: #0C64C5;
+}
+.fa-github{
+    color: #4e0586;
+}
+.fa-youtube{
+    color: #FE0000;
+}
+.fa-google{
+    color: #149E5B;
+}
+.fa-square-whatsapp{
+    color: #0F8D08;
+}
 .outline{
     width: 400px;
     height: 278px;
+    margin: 100px auto;
     background-image: url("pic-03.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -14,14 +51,12 @@
     padding: 10px;
     outline-style: solid;
     outline-width: 15px;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 100px;
 }
 
 .div2{
     width: 1000px;
     height: 550px;
+    margin: 100px auto;
     background-color: aqua;
     outline-color: chartreuse;
     outline-offset: 20px;
@@ -29,6 +64,7 @@
 }
 h1{
     color: blue;
+    text-align: center;
 }
 .text1{
     color: #f409c5;
@@ -72,7 +108,7 @@ p{
     font-style: oblique;
 }
 .text7{
-    font: italic small-caps bold 25px/15px 'sofia';
+    font: italic small-caps bold 20px/15px 'sofia';
     color: red;
     text-align: center;
 }
